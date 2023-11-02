@@ -4,11 +4,11 @@ import HeroImage from "../../public/assets/images/HeroImage.png";
 
 const Hero = () => {
   return (
-    <div className="flex">
-      <div className="w-2/4 pr-5">
+    <div className=" w-4/5 pt-4 flex flex-col justify-center align-center lg:flex lg:flex-row lg:m-0 lg:w-full">
+      <div className="pb-4 lg:max-w-[50%] lg:pb-0">
         <Image src={HeroImage} alt="Hero" className="" />
       </div>
-      <div className="w-2/4 flex-col  gap-5 ">
+      <div className="flex-col gap-4 lg:max-w-[50%] lg:p-4">
         <h1>Bienvenue chez 900.care !</h1>
         <p>
           Si vous lisez ce livret, c’est que vous avez décidé de faire un “happy
