@@ -11,9 +11,12 @@ const MobileHeader = () => {
       <div className="flex flex-row justify-around items-center w-full gap-2.5 pr-4">
         <input className="w-full " type="text"></input>
         <div className=" border border-solid rounded-lg">
-          <select className="" name="search">
-            <option value="none">français</option>
-            <option value="color">anglais</option>
+          <select
+            className="text-[1.25rem] not-italic font-semibold"
+            name="search"
+          >
+            <option value="français">Français 🇫🇷</option>
+            <option value="anglais">Anglais </option>
           </select>
         </div>
       </div>

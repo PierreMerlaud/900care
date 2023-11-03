@@ -14,8 +14,8 @@ const Planete = () => {
           4 personnes et par an, c’est plus de :
         </p>
       </div>
-      <div className="flex flex-col gap-10 items-center text-center lg:flex-row lg:items-start">
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5">
+      <div className="flex flex-col gap-10 items-center text-center lg:flex-row lg:justify-center ">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 flex flex-col  lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             110
           </p>
@@ -24,7 +24,7 @@ const Planete = () => {
             (1035 km)
           </p>
         </div>
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             6
           </p>
@@ -32,7 +32,7 @@ const Planete = () => {
             fois moins d’émissions de CO2
           </p>
         </div>
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             35
           </p>
@@ -40,7 +40,7 @@ const Planete = () => {
             litres d’eau non-transportés par camion ou avion
           </p>
         </div>
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             6,5
           </p>

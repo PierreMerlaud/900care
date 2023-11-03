@@ -9,7 +9,7 @@ const Abonnement = () => {
       <h3 className="font-[Ultra-Ultra] text-[1.2rem] not-italic font-[1000] lg:text-[2rem]">
         Pourquoi l'abonnement ?
       </h3>
-      <div className="flex flex-col items-center gap-6 w-1/2 lg:flex-row lg:gap-12 lg:w-2/3 lg:items-start">
+      <div className="flex flex-col items-center gap-6 w-1/2 lg:flex-row lg:gap-12 lg:w-2/3 lg:justify-center lg:items-start">
         <div className="w-72">
           <h3 className="font-[Ultra-Ultra] text-[1.2rem] not-italic font-[1000] lg:text-[2rem]">
             C’est + écologique
