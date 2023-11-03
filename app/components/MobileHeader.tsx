@@ -4,15 +4,15 @@ import Logo from "../../public/assets/images/Logo.png";
 
 const MobileHeader = () => {
   return (
-    <div className="flex flex-row justify-between w-full ">
+    <div className="flex flex-row justify-between w-full border-b border-solid border-[#FFDA00]  ]">
       <div className="flex flex-row justify-center items-center p-4">
         <Image src={Logo} alt="Logo" className="max-h-10" />
       </div>
       <div className="flex flex-row justify-around items-center w-full gap-2.5 pr-4">
         <input className="w-full " type="text"></input>
-        <div className=" border border-solid rounded-lg">
+        <div className="border border-solid rounded-lg border-[#BBBABA]">
           <select
-            className="text-[1.25rem] not-italic font-semibold"
+            className="text-[1.25rem] not-italic font-semibold p-2"
             name="search"
           >
             <option value="français">Français 🇫🇷</option>

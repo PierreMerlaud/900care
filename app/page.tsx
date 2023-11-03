@@ -8,7 +8,7 @@ import Produits from "./components/Produits";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <div className="flex flex-col">
+      <div className="flex flex-col pb-12">
         <MobileHeader />
         <Hero />
         <Planete />
