@@ -4,7 +4,7 @@ import HeroImage from "../../public/assets/images/HeroImage.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center align-center m-auto w-4/5 pt-4 lg:flex lg:flex-row lg:m-0 lg:w-full">
+    <div className="w-4/5 pt-4 text-center m-auto lg:flex lg:flex-row lg:m-0 lg:w-full">
       <div className="pb-4 lg:max-w-[50%] lg:pb-0">
         <Image src={HeroImage} alt="Hero" className="" />
       </div>
