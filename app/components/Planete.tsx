@@ -2,9 +2,9 @@ import React from "react";
 
 const Planete = () => {
   return (
-    <div className="bg-[#FFE967] py-20  px-0 flex flex-col items-center gap-10 text-center ">
+    <div className="bg-[#FFE967] py-20  px-0 flex flex-col items-center gap-10 text-center">
       <div>
-        <h2 className="font-[Ultra-Ultra] text-[2rem] not-italic font-[1000] lg:text-[4rem] ">
+        <h2 className="font-[Ultra-Ultra] text-[2rem] not-italic font-[1000] lg:text-[4rem]">
           Meilleur pour notre planète
         </h2>
       </div>

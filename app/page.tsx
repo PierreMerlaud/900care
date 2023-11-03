@@ -3,6 +3,7 @@ import MobileHeader from "./components/MobileHeader";
 import Hero from "./components/Hero";
 import Planete from "./components/Planete";
 import Abonnement from "./components/Abonnement";
+import Produits from "./components/Produits";
 //Node.js 18.17
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Planete />
         <Abonnement />
+        <Produits />
       </div>
     </main>
   );
