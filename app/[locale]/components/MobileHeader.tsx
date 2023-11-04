@@ -22,7 +22,7 @@ const MobileHeader = () => {
         <div className="border border-solid rounded-lg border-[#BBBABA]">
           {params.locale === "fr" ? (
             <select
-              className="text-[1.25rem] font-semibold p-2"
+              className="font-semibold p-1 lg:p-2 lg:text-[1.25rem]"
               defaultValue="fr"
               onChange={handleLanguageChange}
             >
