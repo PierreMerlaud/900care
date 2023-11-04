@@ -37,7 +37,7 @@ export const ProduitsBase = ({ t }) => {
           <span>{t("produits.question")}</span>
           <span className="text-[1.5rem]">{isOpen ? "+" : "-"}</span>
         </summary>
-        <div className="flex flex-col items-center gap-4 lg:flex-row lg:flex-wrap lg:justify-center lg:items-start lg:content-start">
+        <div className="lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-start lg:content-start">
           <StepModele
             stepInfo={{
               srcGelImage: Gel1,

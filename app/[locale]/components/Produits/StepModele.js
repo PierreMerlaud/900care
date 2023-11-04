@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const StepModele = ({ stepInfo }) => {
   return (
-    <div className="flex flex-row gap-8 p-4 lg:w-2/5">
+    <div className="flex flex-row gap-8 p-8 lg:p-4 lg:mb-8 lg:w-2/5">
       <Image
         src={stepInfo.srcGelImage}
         alt={stepInfo.altGelImage}
