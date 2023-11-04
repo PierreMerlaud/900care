@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import StepModele from "./StepModele";
 import ProduitsImage from "../../../../public/assets/images/ProduitsImage.png";
@@ -12,6 +12,12 @@ import Gel4 from "../../../../public/assets/images/Gel4.png";
 import Step4 from "../../../../public/assets/images/Step4.png";
 
 export const ProduitsBase = ({ t }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDetails = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="flex flex-col items-center">
       <div className="p-5">
@@ -20,9 +26,16 @@ export const ProduitsBase = ({ t }) => {
         </h2>
         <Image src={ProduitsImage} alt="Produits" className="w-[85%] m-auto" />
       </div>
-      <details className="rounded-[1.125rem] border-[1px] border-[var(--new-palette-900-grey,#BBBABA)] w-3/4 lg:w-1/2">
-        <summary className="text-[0.9rem] not-italic font-semibold p-6 block after:ml-[1ch] after:inline-block after:content-['+'] after:[transition:0.2s] lg:text-[1.25rem]">
-          {t("produits.question")}
+      <details
+        className="rounded-[1.125rem] border-[1px] border-[var(--new-palette-900-grey,#BBBABA)] w-3/4 lg:w-1/2"
+        open={isOpen}
+      >
+        <summary
+          className="text-[0.9rem] not-italic font-semibold p-6 "
+          onClick={toggleDetails}
+        >
+          <span>{t("produits.question")}</span>
+          <span className="text-[1.5rem]">{isOpen ? "+" : "-"}</span>
         </summary>
         <div className="flex flex-col items-center gap-4 lg:flex-row lg:flex-wrap lg:justify-center lg:items-start lg:content-start">
           <StepModele

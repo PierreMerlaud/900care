@@ -13,8 +13,8 @@ export const PlaneteBase = ({ t }) => {
           {t("planete.text")}
         </p>
       </div>
-      <div className="flex flex-col gap-10 items-center text-center lg:flex-row lg:justify-center ">
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 flex flex-col  lg:w-1/5 lg:h-80">
+      <div className=" lg:flex lg:flex-row lg:justify-center ">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] m-6 p-7 flex flex-col  lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             110
           </p>
@@ -22,7 +22,7 @@ export const PlaneteBase = ({ t }) => {
             {t("planete.info1")}
           </p>
         </div>
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5 lg:h-80">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] m-6 p-7 lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             6
           </p>
@@ -30,7 +30,7 @@ export const PlaneteBase = ({ t }) => {
             {t("planete.info2")}
           </p>
         </div>
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5 lg:h-80">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] m-6 p-7 lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             35
           </p>
@@ -38,7 +38,7 @@ export const PlaneteBase = ({ t }) => {
             {t("planete.info3")}
           </p>
         </div>
-        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] p-7 lg:w-1/5 lg:h-80">
+        <div className="bg-[#FFFBE1] w-60 rounded-[1.875rem] m-6 p-7 lg:w-1/5 lg:h-80">
           <p className="font-[Ultra-Ultra] text-[4rem] not-italic font-[1000] lg:text-[8rem]">
             6,5
           </p>
