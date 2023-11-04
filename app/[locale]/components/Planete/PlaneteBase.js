@@ -46,9 +46,6 @@ export const PlaneteBase = ({ t }) => {
             {t("planete.info4")}
           </p>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
     </div>
   );
