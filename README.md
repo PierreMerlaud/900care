@@ -1,3 +1,9 @@
+Précisions :
+
+- Je me suis concentré sur du mobile first puis sur la version web (1500px en largeur comme le figma).
+- Si j'avais eu plus de temps j'aurais tout typé et j'aurais essayé d'écrire des tests. Faire fonctionner i18next m'a pris énormément de temps.
+- Le tiroir du bas fonctionne, c'est juste le premier clic qui bug et je n'ai pas eu le temps de régler ça... (problème avec le state) 😅
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

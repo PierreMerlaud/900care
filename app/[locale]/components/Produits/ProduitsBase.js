@@ -35,7 +35,7 @@ export const ProduitsBase = ({ t }) => {
           onClick={toggleDetails}
         >
           <span>{t("produits.question")}</span>
-          <span className="text-[1.5rem]">{isOpen ? "+" : "-"}</span>
+          <span className="text-[1.5rem]">{isOpen ? "-" : "+"}</span>
         </summary>
         <div className="lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-start lg:content-start">
           <StepModele
