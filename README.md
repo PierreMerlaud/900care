@@ -48,3 +48,4 @@ Décomposer le design en composants appropriés et les intégrer dans votre page
 Utiliser les technologies suivantes : Next.js, TailwindCSS, i18next et Typescript.
 Le design comporte un bouton permettant de changer la langue de la page. Implémenter la traduction de la page avec i18next, en incluant uniquement les langues française et anglaise.
 Structurer votre code de manière à ce qu'il soit facilement maintenable et lisible.
+# frontend-exercise
